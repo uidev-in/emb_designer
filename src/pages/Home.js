@@ -1,39 +1,142 @@
 import React from "react";
 import { withRouter } from "react-router-dom";
-import Reveal from 'react-reveal/Reveal';
-import Slider from '../components/Sliderhome';
-import Abouthome from '../components/Abouthome';
-import Carouselfeature from '../components/Carouselfeature';
-import Carouselclient from '../components/Carouselclient';
-import Carouselclientb from '../components/Carouselclientb';
-import Carouselprojects from '../components/Carouselprojects';
-import Carouselteam from '../components/Carouselteam';
-import Accomplish from '../components/Accomplish';
-import Carouselnews from '../components/Carouselnews';
-import Footer from '../components/Footer';
-import { Efect, Efect1, Efect2  } from "../styles/effect.styles";
+import Reveal from "react-reveal/Reveal";
+import Slider from "../components/Sliderhome";
+import Abouthome from "../components/Abouthome";
+import Carouselfeature from "../components/Carouselfeature";
+import Carouselclient from "../components/Carouselclient";
+import Carouselclientb from "../components/Carouselclientb";
+import Carouselprojects from "../components/Carouselprojects";
+import Carouselteam from "../components/Carouselteam";
+import Accomplish from "../components/Accomplish";
+import Carouselnews from "../components/Carouselnews";
+import Footer from "../components/Footer";
+import { Efect, Efect1, Efect2 } from "../styles/effect.styles";
 
 const Home = ({ history }) => {
-
-
   return (
     <div>
-
-      <Efect/>
-      <Efect1/>
-      <Efect2/>
+      <Efect />
+      <Efect1 />
+      <Efect2 />
 
       <Reveal effect="fadeIn">
         <section className="jumbotron jumbomain">
-            <Slider />
+          <div
+            className="row"
+            style={{
+              position: "absolute",
+              top: "15%",
+              zIndex: "9",
+              left: "5%",
+            }}
+          >
+            <div className="col-md-8">
+              <div className="row">
+                <div className="col-md-4">
+                  <div
+                    className="card mb-2"
+                    style={{ width: "12rem", background: "#080808bf" }}
+                  >
+                    <div className="card-body p-3">
+                      <h5 className="card-title">Card title</h5>
+                      <p className="card-text ">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content. Some quick
+                        example text to build on the card title and make up the
+                        bulk of the card's content.\ Some quick example text to
+                        build on the card title and make up the bulk of .
+                      </p>
+                      <a href="#" className="btn btn-primary">
+                        Go somewhere
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-md-8">
+                  <div className="row">
+                    <div className="col-md-6">
+                      <div
+                        className="card mb-2"
+                        style={{ width: "12rem", background: "#080808bf" }}
+                      >
+                        <div className="card-body p-3">
+                          <h5 className="card-title">Card title</h5>
+                          <p className="card-text ">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <a href="#" className="btn btn-primary">
+                            Go somewhere
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <div
+                        className="card mb-2"
+                        style={{ width: "12rem", background: "#080808bf" }}
+                      >
+                        <div className="card-body p-3">
+                          <h5 className="card-title">Card title</h5>
+                          <p className="card-text ">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <a href="#" className="btn btn-primary">
+                            Go somewhere
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <div
+                        className="card mb-2"
+                        style={{ width: "12rem", background: "#080808bf" }}
+                      >
+                        <div className="card-body p-3">
+                          <h5 className="card-title">Card title</h5>
+                          <p className="card-text ">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <a href="#" className="btn btn-primary">
+                            Go somewhere
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <div
+                        className="card mb-2"
+                        style={{ width: "12rem", background: "#080808bf" }}
+                      >
+                        <div className="card-body p-3">
+                          <h5 className="card-title">Card title</h5>
+                          <p className="card-text ">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                          <a href="#" className="btn btn-primary">
+                            Go somewhere
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <Slider />
         </section>
       </Reveal>
-      
-      <Reveal effect="fadeInUp">
-        <Abouthome/>
-      </Reveal>
 
-      <Reveal effect="fadeInUp">
+      {/* <Reveal effect="fadeInUp">
+        <Abouthome/>
+      </Reveal> */}
+
+      {/* <Reveal effect="fadeInUp">
         <section className='container-fluid'>
           <div className='row m-2-hor'>
             <div className='col-12'>
@@ -44,9 +147,9 @@ const Home = ({ history }) => {
             </div>
           </div>
         </section>
-      </Reveal>
+      </Reveal> */}
 
-      <Reveal effect="fadeInUp">
+      {/* <Reveal effect="fadeInUp">
         <section className='container-fluid bggray py-0'>
           <div className='row m-2-hor'>
             <div className='col-12'>
@@ -54,9 +157,9 @@ const Home = ({ history }) => {
             </div>
           </div>
         </section>
-      </Reveal>
-      
-      <Reveal effect="fadeInUp">
+      </Reveal> */}
+
+      {/* <Reveal effect="fadeInUp">
         <section className='container-fluid bggray'>
           <div className='row m-2-hor'>
             <div className='col-12'>
@@ -64,9 +167,9 @@ const Home = ({ history }) => {
             </div>
           </div>
         </section>
-      </Reveal>
+      </Reveal> */}
 
-      <Reveal effect="fadeInUp">
+      {/* <Reveal effect="fadeInUp">
         <section className='container-fluid pb-0'>
           <div className='row m-2-hor'>
             <div className='col-12'>
@@ -79,9 +182,9 @@ const Home = ({ history }) => {
             </div>
           </div>
         </section>
-      </Reveal>
+      </Reveal> */}
 
-      <Reveal effect="fadeInUp">
+      {/* <Reveal effect="fadeInUp">
         <section className='container-fluid'>
           <div className='row m-2-hor'>
             <div className='col-12'>
@@ -92,13 +195,13 @@ const Home = ({ history }) => {
             </div>
           </div>
         </section>
-      </Reveal>
+      </Reveal> */}
 
-      <Reveal effect="fadeInUp">
+      {/* <Reveal effect="fadeInUp">
         <Accomplish/>
-      </Reveal>
+      </Reveal> */}
 
-      <Reveal effect="fadeInUp">
+      {/* <Reveal effect="fadeInUp">
         <section className='container-fluid pt-0'>
           <div className='row m-2-hor'>
             <div className='col-12'>
@@ -109,10 +212,9 @@ const Home = ({ history }) => {
             </div>
           </div>
         </section>
-      </Reveal>
+      </Reveal> */}
 
-      <Footer />
-
+      {/* <Footer /> */}
     </div>
   );
 };

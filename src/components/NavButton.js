@@ -20,7 +20,7 @@ const BaseBarStyle = styled.div`
   height: 4px;
   background-color: white;
   transition: width 0.2s ease-in-out, transform 0.2s ease-in-out,
-  opacity 0.2s ease-in-out;
+    opacity 0.2s ease-in-out;
 `;
 
 export const Bar1 = styled(BaseBarStyle)`
@@ -40,7 +40,8 @@ const BaseCircle = styled.div`
   width: 75px;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  // align-items: flex-end;
+  align-items: baseline;
 `;
 
 const Circle = styled(BaseCircle)`
