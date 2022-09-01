@@ -68,6 +68,22 @@ section {
     transition: all 0.3s ease;
   }
 }
+.gold-btn {
+  position: relative;
+  overflow: hidden;
+  font-size: 11pt;
+  color: #fff;
+  background: none;
+  border: 2px solid #c8b16f;
+  border-radius: 0;
+  padding: 10px 44px;
+  transition-delay: 0s;
+  z-index: 0;
+
+  &:hover {
+    background-image: linear-gradient(to left, #c8b16f, #c7ab5a);
+  }
+}
 .dflex-center {
   display: flex;
   align-items: center;

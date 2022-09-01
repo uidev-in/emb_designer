@@ -161,9 +161,9 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
           </div>
 
           <div className="info">
-            <span>(+6221) 000 888 999</span>
-            <span className="link">support@homekins.com</span>
-            <span>129 Park street, New York 10903</span>
+            <span>(+91) 000 888 999</span>
+            <span className="link">support@domain.com</span>
+            <span>129 XYZ, India 10903</span>
           </div>
         </Body>
         <SocialContainer className="soc-icon" open={isOn}>

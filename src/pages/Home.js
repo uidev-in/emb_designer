@@ -47,9 +47,10 @@ const Home = ({ history }) => {
                         bulk of the card's content.\ Some quick example text to
                         build on the card title and make up the bulk of .
                       </p>
-                      <a href="#" className="btn btn-primary">
-                        Go somewhere
-                      </a>
+                      <button className="btn gold-btn">
+                        <span className="shine"></span>
+                        <span>Link</span>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -66,9 +67,7 @@ const Home = ({ history }) => {
                             Some quick example text to build on the card title
                             and make up the bulk of the card's content.
                           </p>
-                          <a href="#" className="btn btn-primary">
-                            Go somewhere
-                          </a>
+                          <button className="btn gold-btn">Link </button>
                         </div>
                       </div>
                     </div>
@@ -83,9 +82,7 @@ const Home = ({ history }) => {
                             Some quick example text to build on the card title
                             and make up the bulk of the card's content.
                           </p>
-                          <a href="#" className="btn btn-primary">
-                            Go somewhere
-                          </a>
+                          <button className="btn gold-btn">Link </button>
                         </div>
                       </div>
                     </div>
@@ -100,9 +97,7 @@ const Home = ({ history }) => {
                             Some quick example text to build on the card title
                             and make up the bulk of the card's content.
                           </p>
-                          <a href="#" className="btn btn-primary">
-                            Go somewhere
-                          </a>
+                          <button className="btn gold-btn">Link </button>
                         </div>
                       </div>
                     </div>
@@ -117,9 +112,7 @@ const Home = ({ history }) => {
                             Some quick example text to build on the card title
                             and make up the bulk of the card's content.
                           </p>
-                          <a href="#" className="btn btn-primary">
-                            Go somewhere
-                          </a>
+                          <button className="btn gold-btn">Link </button>
                         </div>
                       </div>
                     </div>
