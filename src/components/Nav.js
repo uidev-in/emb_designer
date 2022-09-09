@@ -98,7 +98,12 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
         className="headerLogo"
       >
         <div className="logo">
-          <img src="./img/logowhite.png" className="img-fluid" alt="#" />
+          <img
+            src="./img/thawLogoWhite.png"
+            className="img-fluid"
+            alt="#"
+            style={{ width: "100px" }}
+          />
           {/* <span className="callus">Call Us: (+6221) 000 888 999</span> */}
         </div>
         <div className="navIcon">

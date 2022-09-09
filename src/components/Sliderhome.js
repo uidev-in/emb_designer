@@ -9,24 +9,35 @@ const content = [
     // description: "With precision",
     // button: "More Detail",
     link: "/#",
-    image:
-      "https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "./img/des-1.jpg",
   },
   {
     // title: "Interior Expertise",
     // description: "Stylish living",
     // button: "More Detail",
     link: "/#",
-    image:
-      "https://images.pexels.com/photos/1329711/pexels-photo-1329711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    image: "./img/des-2.jpg",
   },
   {
     // title: "Land of Residence",
     // description: "According lifestyle",
     // button: "More Detail",
     link: "/#",
-    image:
-      "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+    image: "./img/des-3.jpg",
+  },
+  {
+    // title: "Land of Residence",
+    // description: "According lifestyle",
+    // button: "More Detail",
+    link: "/#",
+    image: "./img/des-4.jpg",
+  },
+  {
+    // title: "Land of Residence",
+    // description: "According lifestyle",
+    // button: "More Detail",
+    link: "/#",
+    image: "./img/des-5.jpg",
   },
 ];
 
