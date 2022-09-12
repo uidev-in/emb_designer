@@ -102,7 +102,7 @@ const NavigationMenu = ({ history, hasBackground, setBackground }) => {
             src="./img/thawLogoWhite.png"
             className="img-fluid"
             alt="#"
-            style={{ width: "100px" }}
+            style={{ width: "180px",marginTop: "-30px"}}
           />
           {/* <span className="callus">Call Us: (+6221) 000 888 999</span> */}
         </div>
