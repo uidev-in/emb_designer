@@ -33,14 +33,14 @@ const Home = ({ history }) => {
           >
             <div className="col-md-8">
               <div className="row">
-                <div className="col-md-4">
+                <div className="col-md-3 mr-3">
                   <div
                     className="card mb-2"
-                    style={{ width: "12rem", background: "#080808bf" }}
+                    style={{ width: "9.5rem", background: "#080808bf" }}
                   >
                     <div className="card-body p-3">
                       <h5 className="card-title">Card title</h5>
-                      <p className="card-text ">
+                      <p className="card-text " style={{ fontSize: "12px" }}>
                         Some quick example text to build on the card title and
                         make up the bulk of the card's content. Some quick
                         example text to build on the card title and make up the
@@ -56,14 +56,17 @@ const Home = ({ history }) => {
                 </div>
                 <div className="col-md-8">
                   <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-5">
                       <div
                         className="card mb-2"
-                        style={{ width: "12rem", background: "#080808bf" }}
+                        style={{ width: "9.5rem", background: "#080808bf" }}
                       >
                         <div className="card-body p-3">
                           <h5 className="card-title">Card title</h5>
-                          <p className="card-text ">
+                          <p
+                            className="card-text "
+                            style={{ fontSize: "12px" }}
+                          >
                             Some quick example text to build on the card title
                             and make up the bulk of the card's content.
                           </p>
@@ -71,14 +74,17 @@ const Home = ({ history }) => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-5">
                       <div
                         className="card mb-2"
-                        style={{ width: "12rem", background: "#080808bf" }}
+                        style={{ width: "9.5rem", background: "#080808bf" }}
                       >
                         <div className="card-body p-3">
                           <h5 className="card-title">Card title</h5>
-                          <p className="card-text ">
+                          <p
+                            className="card-text "
+                            style={{ fontSize: "12px" }}
+                          >
                             Some quick example text to build on the card title
                             and make up the bulk of the card's content.
                           </p>
@@ -86,14 +92,17 @@ const Home = ({ history }) => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-5">
                       <div
                         className="card mb-2"
-                        style={{ width: "12rem", background: "#080808bf" }}
+                        style={{ width: "9.5rem", background: "#080808bf" }}
                       >
                         <div className="card-body p-3">
                           <h5 className="card-title">Card title</h5>
-                          <p className="card-text ">
+                          <p
+                            className="card-text "
+                            style={{ fontSize: "12px" }}
+                          >
                             Some quick example text to build on the card title
                             and make up the bulk of the card's content.
                           </p>
@@ -101,14 +110,17 @@ const Home = ({ history }) => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-5">
                       <div
                         className="card mb-2"
-                        style={{ width: "12rem", background: "#080808bf" }}
+                        style={{ width: "9.5rem", background: "#080808bf" }}
                       >
                         <div className="card-body p-3">
                           <h5 className="card-title">Card title</h5>
-                          <p className="card-text ">
+                          <p
+                            className="card-text "
+                            style={{ fontSize: "12px" }}
+                          >
                             Some quick example text to build on the card title
                             and make up the bulk of the card's content.
                           </p>
